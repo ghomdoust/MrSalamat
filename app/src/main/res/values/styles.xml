@@ -39,4 +39,10 @@
         <item name="colorControlHighlight">#FCE4EC</item>
     </style>
 
+    <style name="MineCustomTabText" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">17sp</item>
+        <item name="fontFamily">@font/sans_num_bold</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
 </resources>

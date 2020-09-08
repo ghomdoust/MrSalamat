@@ -74,7 +74,8 @@
         android:background="#448AFF"
         app:tabIndicatorHeight="5dp"
         app:tabIndicatorColor="#F40327"
-
+        android:scrollbarSize="20sp"
+        app:tabTextAppearance="@style/MineCustomTabText"
         >
 
     </com.google.android.material.tabs.TabLayout>
