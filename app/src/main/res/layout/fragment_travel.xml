@@ -32,19 +32,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="3"
-                    android:src="@drawable/background_translator"
+                    android:src="@drawable/hotels_background"
                     android:scaleType="centerCrop"
                     >
 
                 </ImageView>
 
                 <TextView
-                    android:id="@+id/tv_translator"
+                    android:id="@+id/travel_1"
                     android:fontFamily="@font/sans_num_bold"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="مترجم آنلاین"
+                    android:text="هتل های درجه 1 و 2"
                     android:layout_gravity="center_horizontal"
                     android:gravity="center_horizontal"
                     android:textSize="20sp"
@@ -72,19 +72,19 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="3"
-                    android:src="@drawable/background_dictionary"
+                    android:src="@drawable/apartments_background"
                     android:scaleType="centerCrop"
                     >
 
                 </ImageView>
 
                 <TextView
-                    android:id="@+id/tv_dictionary"
+                    android:id="@+id/travel_2"
                     android:fontFamily="@font/sans_num_bold"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
-                    android:text="فرهنگ لغت تصویری به زبان ساده"
+                    android:text="هتل آپارتمان ها"
                     android:layout_gravity="center_horizontal"
                     android:gravity="center_horizontal"
                     android:textSize="20sp"
@@ -98,6 +98,83 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/reservehotel_background"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/travel_3"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="رزرو هتل"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical"
+                android:layout_margin="5dp"
+                android:padding="10dp"
+                android:background="@drawable/shape"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:src="@drawable/reserveplan_background"
+                    android:scaleType="centerCrop"
+                    >
+
+                </ImageView>
+
+                <TextView
+                    android:id="@+id/travel_4"
+                    android:fontFamily="@font/sans_num_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="رزرو بلیط هواپیما"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:textSize="20sp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="10dp"
+                    android:paddingRight="10dp"
+                    android:background="@drawable/shape_button"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
 
         </LinearLayout>
     </ScrollView>
