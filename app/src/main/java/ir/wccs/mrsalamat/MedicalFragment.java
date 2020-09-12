@@ -13,6 +13,10 @@ import androidx.fragment.app.Fragment;
 
 public class MedicalFragment extends Fragment {
 
+    private TextView medical_1 ;
+    private TextView medical_2 ;
+    private TextView medical_3 ;
+    private TextView medical_4 ;
 
 
     public static MedicalFragment instance (){
@@ -37,6 +41,50 @@ public class MedicalFragment extends Fragment {
 
     private void initView(View view){
 
+        medical_1 = view.findViewById(R.id.medical_1);
+        medical_2 = view.findViewById(R.id.medical_2);
+        medical_3 = view.findViewById(R.id.medical_3);
+        medical_4 = view.findViewById(R.id.medical_4);
+
+        medical_1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent medical_1 = new Intent(getActivity(),medical_p1.class);
+                startActivity(medical_1);
+
+            }
+        });
+
+        medical_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent medical_2 = new Intent(getActivity(),medical_p2.class);
+                startActivity(medical_2);
+
+            }
+        });
+
+        medical_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent medical_3 = new Intent(getActivity(),medical_p3.class);
+                startActivity(medical_3);
+
+            }
+        });
+
+        medical_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Intent medical_4 = new Intent(getActivity(),medical_p4.class);
+                startActivity(medical_4);
+
+            }
+        });
 
     }
 

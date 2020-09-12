@@ -79,7 +79,7 @@
 
                 <TextView
                     android:fontFamily="@font/sans_num_bold"
-                    android:id="@+id/tv_cartoons"
+                    android:id="@+id/tourism_2"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -118,7 +118,7 @@
 
                 <TextView
                     android:fontFamily="@font/sans_num_bold"
-                    android:id="@+id/tourism_2"
+                    android:id="@+id/tourism_3"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -157,7 +157,7 @@
 
                 <TextView
                     android:fontFamily="@font/sans_num_bold"
-                    android:id="@+id/tourism_3"
+                    android:id="@+id/tourism_4"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"
@@ -196,7 +196,7 @@
 
                 <TextView
                     android:fontFamily="@font/sans_num_bold"
-                    android:id="@+id/tourism_4"
+                    android:id="@+id/tourism_5"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="1"

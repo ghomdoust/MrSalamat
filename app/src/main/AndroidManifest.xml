@@ -2,10 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ir.wccs.mrsalamat">
 
-
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
-
 
     <application
         android:allowBackup="true"
@@ -14,16 +12,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-
+        <activity android:name=".travel_p4"></activity>
+        <activity android:name=".travel_p3" />
+        <activity android:name=".travel_p2" />
+        <activity android:name=".travel_p1" />
+        <activity android:name=".tourism_p5" />
+        <activity android:name=".tourism_p4" />
+        <activity android:name=".tourism_p3" />
+        <activity android:name=".tourism_p2" />
+        <activity android:name=".tourism_p1" />
+        <activity android:name=".medical_p4" />
+        <activity android:name=".medical_p3" />
+        <activity android:name=".medical_p2" />
+        <activity android:name=".medical_p1" />
         <activity android:name=".dictionary" />
         <activity android:name=".translator" />
         <activity android:name=".a_navigation_drawer" />
-
         <activity android:name=".a_user_manual" />
         <activity android:name=".a_contact_us" />
         <activity android:name=".a_about_us" />
-
         <activity
             android:name=".SplashActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
@@ -33,9 +40,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".MainActivity" />
-
     </application>
 
 </manifest>
